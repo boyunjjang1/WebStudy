@@ -1,0 +1,16 @@
+button {
+    background-color: pink;
+    border-color: pink;
+    border-style: none;
+    border-image: none;
+    color: black;
+    border-radius: 30px;
+    width: 300px;
+    height: 100px;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}

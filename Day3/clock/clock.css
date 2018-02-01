@@ -1,0 +1,52 @@
+.wrapper {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+
+.clock_1 {
+    font-size: 128px;
+    display: inline-block;
+    text-align: left;
+    color: lightgray;
+}
+
+.clock_2 {
+    display: inline-block;
+    text-align: right;
+    font-size: 128px;
+    color: pink;
+}
+
+
+.stick_1 {
+    width: 290px;
+    height: 15px;
+    border: 1px solid pink;
+    background-color: pink;
+    display: inline-block;
+}
+
+.stick_2 {
+    display: inline-block;
+    width: 290px;
+    height: 15px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    
+}
+
+
+button {
+    position: absolute;
+    left: 58%;
+    top: 70%;
+    border: none;
+    background-color: rgb(250, 139, 157);
+    color: white;
+}
+
+button:hover{
+    background-color: pink;
+    cursor: pointer;
+}

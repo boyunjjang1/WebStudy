@@ -1,0 +1,28 @@
+body {
+    background-color: pink;
+    width: 1920px;
+    height: 1080px;
+}
+
+ .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    background-color: white;
+    border: 10px solid white;
+
+} 
+
+/* img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    border: 10px solid white;
+} */
+
+p {
+    font-weight: bold;
+    text-align: center;
+}

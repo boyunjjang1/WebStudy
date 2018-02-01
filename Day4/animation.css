@@ -1,0 +1,41 @@
+.temp1 {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: -2s; 
+    /* 이미 애니메이션이 재생된 것처럼 생각하고 재생됨 */
+    animation-iteration-count: infinite;
+    /* 반복횟수 */
+    animation-direction: alternate-reverse;
+    /* to make the animation run backwards first */
+}
+
+@keyframes example {
+   /* from{background-color: pink;}
+   to{background-color: lightblue;} */
+
+   0% {background-color: pink; left: 0px; top: 0px;}
+   25% {background-color: lightcoral; left: 200px; top: 0px;}
+   50% {background-color: lightcyan; left: 200px; top: 200px;}
+   100% {background-color: lightgrey; left: 0px; top: 200px;}
+}
+
+.temp2 {
+    width: 100px;
+    height: 100px;
+    animation-name: temp2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    /* animation-fill-mode: both 
+    => element get the style values set by the first keframe before the animation starts,
+    and retain the style values from the last keyframe when the animation ends */
+}
+
+@keyframes temp2 {
+    from{background-color: pink;}
+    to{background-color: lightgrey;}
+}

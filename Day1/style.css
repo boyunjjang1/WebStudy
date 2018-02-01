@@ -1,0 +1,54 @@
+html, body {
+    background-color: black;
+}
+
+div {
+    position: relative;
+    display: inline-block;
+}
+
+p {
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    letter-spacing: 15px; 
+    font-family: sans-serif; 
+}
+
+.test1 {
+    background-color: pink;
+     /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    /* padding-bottom: 20px; */
+    padding-right: 150px;
+    padding-left: 200px;
+    border-right: blue solid 10px;
+}
+
+.test2 {
+    position: absolute;
+    background-color: yellow;
+    right: 0;
+    bottom: 0;
+}
+
+.test3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: skyblue;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.boyun {
+    width: 300px;
+    height: 400px;
+    box-shadow: black solid 1px 1px 1px 1px;
+    border-radius: 30px;
+    border: red solid 1px;
+}

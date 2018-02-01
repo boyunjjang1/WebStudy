@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(240, 229, 238);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    top: 0;
+    display: fixed;
+}
+
+.logo {
+    text-align: center;
+    font-size: 42px;
+    text-shadow: 3px 3px white;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.menu_top {
+    vertical-align: top;
+    text-align: center;
+}
+
+.menu_bottom {
+    text-align: center;
+}
+
+.menu_top ul {
+    list-style: none;
+    display: inline-block;
+    background-color: rgb(247, 178, 224);
+    border: 4px solid black;
+    box-shadow: 3px 3px rgb(247, 178, 224);
+    margin: 0;
+}
+
+.menu_bottom ul {
+    background-color: white;
+    list-style: none;
+    display: inline-block;
+    border: 4px solid black;
+    box-shadow: 3px 3px white;
+    margin: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+
+.images {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
