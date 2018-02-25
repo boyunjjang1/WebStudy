@@ -5,6 +5,83 @@ body {
     background-color:#f7effc;
 }
 
+.wrapper {
+    top: 0;
+    display: fixed;
+}
+
+.logo {
+    text-align: center;
+    font-size: 42px;
+    text-shadow: 3px 3px white;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.menu_top {
+    vertical-align: top;
+    text-align: center;
+}
+
+.menu_top ul {
+    list-style: none;
+}
+
+.menu_top li {
+    float: left;
+    margin: 10px;
+}
+
+.menu_bottom ul {
+    list-style: none;
+}
+
+.menu_bottom li {
+    float: left;
+    margin: 10px;
+}
+
+
+
+.menu_bottom {
+    text-align: center;
+}
+
+
+
+
+li:hover {
+    cursor: pointer;
+}
+
+
+.images {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu_top ul {
+    list-style: none;
+    display: inline-block;
+    background-color: rgb(247, 178, 224);
+    border: 4px solid black;
+    box-shadow: 3px 3px rgb(247, 178, 224);
+    margin: 0;
+}
+
+.menu_bottom ul {
+    background-color: white;
+    list-style: none;
+    display: inline-block;
+    border: 4px solid black;
+    box-shadow: 3px 3px white;
+    margin: 0;
+}
+
+
 .images {
     margin: 0 auto;
     height: 100%;
@@ -39,6 +116,7 @@ h2 {
 img {
     height: 230px;
     width: 230px;
+    cursor: pointer;
 }
 
 
@@ -49,14 +127,30 @@ ul {
 
 .images li {
     text-align: center;
-    border: 3px solid black;
     margin: 10px;
+    border: 3px solid black;
     box-shadow: lightgray 2px 2px 0px 0px;
+    animation-name: fadeout;
+    animation-duration: 0.5s;
+    
+}
+
+@keyframes fadein {
+    from{box-shadow: lightgray 2px 2px 0px 0px;}
+    to{box-shadow: black 3px 3px 0px 0px;}
+}
+
+@keyframes fadeout {
+    from{box-shadow: black 3px 3px 0px 0px;}
+    to{box-shadow: lightgray 2px 2px 0px 0px;}
 }
 
 .images li:hover {
-    box-shadow: black 2px 2px 0px 0px;
+    animation-name: fadein;
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
 }
+
 
 .brightmoon {
     margin-top: 150px;
@@ -83,7 +177,14 @@ ul {
     background-color: #f4f4f4;
     height: 320px;
     width: 100%;
+    text-align: center;
 }
+
+
+.footer p {
+    margin: 0;
+}
+
 
 .footer1{
     display: inline-block;
@@ -110,12 +211,14 @@ ul {
 
 .footer2 {
     display: inline-block;
+    text-align: left;
 }
 
 .footer3 {
     display: inline-block;
     margin-left: 100px;
     vertical-align: top;
+    text-align: left;
 }
 
 .footer3 li {
@@ -155,6 +258,7 @@ ul {
     display: inline-block;
     margin-left: 100px;
     vertical-align: top;
+    text-align: left;
 }
 
 .footer4 h2 {
