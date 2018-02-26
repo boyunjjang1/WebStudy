@@ -11,7 +11,6 @@ function init() {
 
     var bottom_list = document.querySelector('.bottom_list');
 
-    var images1Ct = document.querySelector('.images1').childElementCount;
 
     for(var i = 0; i < top.length; i++)
     {
@@ -25,10 +24,6 @@ function init() {
         "<li>" + menu[i] + "</li>";
     }
 
-    for(var i = 0; i < images1Ct; i++)
-    {
-        images1.innerHTML += "<li>" <img src="./img.jpg" alt="image.jpg"> + "</li>"
-    }
 
 }
 window.onload = function() {
@@ -51,7 +46,7 @@ window.onload = function() {
             pages[i].onclick = function(){
                 setTimeout(function(){
                     console.log(temp);
-                    window.open("./TOP.html")
+                    window.open("./index.html")
                 },1000);
             };
         }
@@ -61,5 +56,13 @@ window.onload = function() {
     
 
 }
+
+
+ var imgs = document.querySelector('img');
+
+ if(onclick('imgs'))
+ {
+     window.open("./index.html");
+ }
 
 
