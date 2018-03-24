@@ -1,0 +1,12 @@
+{
+  "name": "wear_searcher",
+  "version": "0.0.1",
+  "description": "wear searcher system",
+  "main": "search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node search.js"
+  },
+  "author": "boyunKang",
+  "license": "ISC"
+}
